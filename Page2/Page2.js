@@ -1,0 +1,4 @@
+function Back(){
+        alert("bye!")
+  
+}

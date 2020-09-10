@@ -1,0 +1,200 @@
+html.body{
+    height: 100%;
+}
+body{
+    display: block;
+    margin:8px;
+    height: 100%;
+    background-image: url("../image/fc2e6b275ea65b3f45d8ce08739141c9.jpg");
+}
+.header{
+    background-color:rgb(0, 0, 0,0.75);
+    height: 60px;
+    flex: 0;
+    left: 0;
+    position: relative;
+    right: 0;
+    top: 0;
+    z-index: 80;
+    margin: 0 auto;
+    padding: 5px 0;
+    box-sizing: flex;
+    border-bottom: 1px solid #a1d5e2;
+    font-family: "Bad Script",cursive;
+}
+@media (max-width: 950px){
+  .header{
+   font-size: 10px;
+  }
+}
+
+.menu{
+    background-color: rgb(0, 0, 0,0.1);
+     float: left;
+    width: 300px;
+    height: 1000px;
+    padding: 0px auto;
+    margin:0 auto;
+    font-family: fantasy;
+    font-size: 15px;
+    position: left;
+    box-shadow: 0 0 0 1px#a1d5e2,
+      0 0 0 1px #a1d5e2,
+      0 0 0 1px #a1d5e2,
+      0 0 0 1px #a1d5e2;
+      border-bottom: 1px solid #a1d5e2;
+      
+     
+    
+}
+.container{
+  background: rgb(0, 0, 0,0.6);
+  backdrop-filter: blur(10px);
+    margin-top: 15px;
+    overflow: hidden;
+    zoom: 1;
+    max-width: 100%;
+    min-width: 30%;
+    padding: 0px auto;
+    margin:0 auto;
+    margin-bottom: 20px;
+   
+    
+    
+  }
+  @media (max-width: 1200px){
+    .container{
+      max-width: 997px;
+    }
+  }
+  @media (max-width: 950px){
+    .container{
+      max-width: 750px;
+    }
+  }
+  @media (max-width: 760px){
+    .container{
+      max-width: 510px;
+    }
+  }
+  @media (max-width: 500px){
+    .container{
+      max-width: 300px;
+    }
+  }
+  .content{
+    float: right;
+   width: 66%;
+    height: 50%;
+    margin-top: 15px;
+    overflow: hidden;
+    zoom: 1;
+    margin: 0px auto;
+    margin-right: 4%;
+    position: right;
+  
+  }
+
+  @media screen and (max-width: 1200px){
+  .content {
+      width: auto;
+      float: none;
+      margin: 20px 0;
+  }
+}
+.back{
+    background-color: rgb(0, 0, 0,0.1);
+    float: unset;
+    zoom: 1;
+    margin-bottom: 20px;
+    padding: 50px 0px 50px;
+  }
+  #box{
+    margin: 0px auto;
+    padding: 0px auto;
+      float:right;
+      font-size: 15px;
+      max-width: 600px;
+      max-height: 900px;
+      backdrop-filter: blur(10px);
+      
+  }
+  @media (max-width: 500px){
+    #box{
+      float: none;
+      max-width: 500px;
+      max-height: 700px;
+      backdrop-filter: blur(20px);
+      
+    }
+  }
+  #BoxStack{
+    margin: 0px auto;
+    padding: 0px auto;
+      float:bottom;
+      max-width: 500px;
+      max-height: 700px;
+      backdrop-filter: blur(10px);
+      
+  }
+  @media (max-width: 500px){
+    #BoxStack{
+      border-top: 1px solid #a1d5e2;
+      
+      border-bottom: 1px solid #a1d5e2;
+      box-shadow: 0 0 1px rgb(4, 0, 255),
+      0 0  5px rgb(0, 140, 255),
+      0 0  10px limegreen,
+      0 0  20px limegreen;
+    }
+  }
+  #BoxEducation{
+    margin: 0px 0px;
+    padding: 0px 0px;
+      float: right;
+      max-width: 500px;
+      max-height: 700px;
+      backdrop-filter: blur(10px);
+  }
+  @media (max-width: 500px){
+    #BoxEducation{
+      border-top: 1px solid #a1d5e2;
+      border-bottom: 1px solid #a1d5e2;
+      box-shadow: 0 0 1px rgb(4, 0, 255),
+      0 0  5px rgb(0, 140, 255),
+      0 0  10px limegreen,
+      0 0  20px limegreen;
+    }
+  }
+  #imageBox{
+    margin: 5px auto;
+    padding: 5px auto;
+      position: relative;
+      width: 60px;
+      height: 90px;
+      background-image: url("image2/cat.jpg");
+      background-repeat: no-repeat ;
+      border-radius: 20px ;
+      box-shadow: 0 0 1px rgb(4, 0, 255),
+      0 0  5px rgb(0, 140, 255),
+      0 0  10px limegreen,
+      0 0  20px limegreen;
+  }
+  #BoxWork{
+    margin: 0px 0px;
+    padding: 0px 0px;
+      float:left;
+      max-width: 500px;
+      max-height: 700px;
+      backdrop-filter: blur(10px);
+  }
+  @media (max-width: 500px){
+    #BoxWork{
+      border-top: 1px solid #a1d5e2;
+      border-bottom: 1px solid #a1d5e2;
+      box-shadow: 0 0 1px rgb(4, 0, 255),
+      0 0  5px rgb(0, 140, 255),
+      0 0  10px limegreen,
+      0 0  20px limegreen;
+    }
+  }
