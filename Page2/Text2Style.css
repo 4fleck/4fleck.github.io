@@ -3,21 +3,20 @@ h1{
     padding: 0;
     color:rgb(0, 0, 0);
     font-style: 16em;
-    text-shadow: 0 0 10px #85dce0,
-    0 0 20px  #85dce0,
-    0 0 40px  #85dce0,
-    0 0 80px  #85dce0,
-    0 0 120px  #85dce0,
-    0 0 200px  #85dce0,
-    0 0 300px  #85dce0,
-    0 0 400px  #85dce0;
+    text-shadow: 0 0 10px #6fb98f,
+    0 0 20px  #6fb98f,
+    0 0 40px  #6fb98f,
+    0 0 80px  #6fb98f,
+    0 0 120px  #6fb98f,
+    0 0 200px  #6fb98f,
+    0 0 300px  #6fb98f,
+    0 0 400px  #6fb98f;
 }
 a1{
-    position: relative;
     display: inline-block;
     padding: 25px 30px;
     margin:40px 0 ;
-    color: #03e9f4;
+    color: #004445;
     font-size:24px;
     text-decoration: none;
     text-transform: uppercase;
@@ -32,12 +31,13 @@ a1{
   
   
   a1:hover{
-    background: #03e9f4;
+    background: #6fb98f;
     color:rgb(0,0,0,0.75);
-    box-shadow: 0 0 5px #03e9f4,
-    0 0 25px #03e9f4,
-    0 0 50px #03e9f4
-    0 0 200px #03e9f4;
+    float: top;
+    box-shadow: 0 0 5px #6fb98f,
+    0 0 25px #6fb98f,
+    0 0 50px #6fb98f
+    0 0 200px #6fb98f;
   }
   a1:nth-child(1){
     filter: hue-rotate(360deg);
@@ -54,7 +54,7 @@ a1{
     display: inline-block;
     padding: 25px 30px;
     margin:40px 0 ;
-    color: #03e9f4;
+    color: #004445;
     font-size:24px;
     text-decoration: none;
     text-transform: uppercase;
@@ -69,12 +69,12 @@ a1{
   
   
   a2:hover{
-    background: #03e9f4;
+    background: #6fb98f;
     color:rgb(0,0,0,0.75);
-    box-shadow: 0 0 5px #03e9f4,
-    0 0 25px #03e9f4,
-    0 0 50px #03e9f4
-    0 0 200px #03e9f4;
+    box-shadow: 0 0 5px #6fb98f,
+    0 0 25px #6fb98f,
+    0 0 50px #6fb98f
+    0 0 200px #6fb98f;
     
   }
   a2:nth-child(1){
@@ -86,7 +86,7 @@ a1{
     display: inline-block;
     padding: 25px 30px;
     margin:40px 0 ;
-    color:  #03e9f4;
+    color:  #004445;
     font-size:24px;
     text-decoration: none;
     text-transform: uppercase;
@@ -101,47 +101,68 @@ a1{
   
   
   a3:hover{
-    background: #03e9f4;
+    background:  #6fb98f;
     color:rgb(0,0,0,0.75);
-    box-shadow: 0 0 5px #03e9f4,
-    0 0 25px  #03e9f4,
-    0 0 50px #03e9f4
-    0 0 200px  #03e9f4;
+    box-shadow: 0 0 5px #6fb98f,
+    0 0 25px   #6fb98f,
+    0 0 50px  #6fb98f
+    0 0 200px   #6fb98f;
   }
   a3:nth-child(1){
     filter: hue-rotate(360deg);
   }
   h2{
-    color: lawngreen;
+    color:  #6fb98f;
     float: none;
   }
   span2{
-    color: lawngreen;
+    color:  #6fb98f;
     float: none;
   }
   h3{
-    color: lawngreen;
+    color:  #6fb98f;
     float: none;
     padding: 10px;
     margin: 10px;
     font-size: 24px;
   }
   span3{
-    color: lawngreen;
+    color:  #6fb98f;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 15px;
     float: none;
   }
   a{
-    color: lawngreen;
+    color:  #6fb98f;
+    
   }
+  a:hover{
+    color:black;
+    background:#6fb98f;
+    box-shadow: 0 0 5px   #6fb98f,
+        0 0 25px   #6fb98f,
+        0 0 50px    #6fb98f,
+        0 0 200px  #6fb98f;
+  }
+  a5{
+    color:  #6fb98f;
+    
+    
+  }
+  @media (max-width: 500px){
+    a5{
+      opacity: 5;
+    }
+  }
+  
   #StackStyle{
-    color: limegreen;
+    color:  #6fb98f;
     margin: 5px;
     padding: 5px;
   }
   #HStyle{
-    color: limegreen;
+    color:  #2c7873;
     margin: 10px;
     padding: 10px;
   }
+  
